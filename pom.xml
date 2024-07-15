@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.epam.demo</groupId>
-    <artifactId>apitestautomation</artifactId>
+    <artifactId>aitest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>The project for Gen AI demo from API perspective</description>
 
