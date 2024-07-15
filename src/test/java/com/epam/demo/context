@@ -1,0 +1,18 @@
+//Implement Brand new deck tests for both jokers are enabled and disabled.
+//
+//Brand-new deck test
+//
+//1. Get Endpoint: https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true
+//2. Verify response code is 200
+//3. Response:
+//{
+//    "success": true,
+//    "deck_id": "3p40paa87x90",
+//    "shuffled": false,
+//    "remaining": 52
+//}
+//Requirements:
+//Response requirements:
+//'deck_id' is a String UUID with the length 12
+//'success' and 'shuffled' are boolean and equal to true in case operation was successful
+//remaining is integer and equals for a deck size 52 cards if jokers are disabled and 54 if it is enabled
